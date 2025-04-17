@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,37 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+Guia de Execução do Projeto Laravel
+
+Copie o arquivo de variáveis de ambiente:
+
+cp .env.example .env
+
+Configure as credenciais do banco de dados:
+
+Abra o arquivo .env e edite as seguintes linhas:
+
+DB_DATABASE=nome_do_banco
+DB_USERNAME=usuario
+DB_PASSWORD=senha
+
+
+Instale as dependências do PHP:
+composer install
+
+Gere a chave da aplicação:
+php artisan key:generate
+
+Execute as migrations:
+php artisan migrate
+
+Execute os seeders (opcional):
+php artisan db:seed
+
+Inicie o servidor local:
+php artisan serve
+
+Acesse o projeto no navegador:
+http://127.0.0.1:8000
+>>>>>>> 1384a540fa0baccc1ed74052a3ea7cfd2c90d2cd
